@@ -1,0 +1,51 @@
+/* pages/menu5/zhanghao/reg.wxss */
+
+page{background-color: #f2f2f2;}
+.denglu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.shuoming{
+  display: block;
+  margin: 8px 0;
+  color: gray;
+  font-size: 14px
+}
+.form-wap{
+  border-top: 1px solid #eee;
+}
+.input-wrap{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  margin: 0 -12px;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 12px
+
+}
+.account-info-input{
+    font-size: 18px;
+    line-height: 100%;
+    width: 100%;
+}
+.mysubmit{
+  width: 100%;
+  margin-bottom: 5px
+}
+.wx{}
+.label{
+  color: gray;
+  width: 5.5em;
+}
+.flex-wap{
+  display: flex;flex-direction: row;
+  align-items: center
+}
+.myred{
+  color: red;
+}

@@ -1,0 +1,177 @@
+/* pages/menu5/index.wxss */
+
+page {
+  background-color: rgba(243, 196, 158, 0.062);
+}
+
+.denglu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.shuoming {
+  display: block;
+  margin: 8px 0;
+  color: gray;
+  font-size: 14px;
+}
+
+.form-wap {
+  border-top: 1px solid #eee;
+}
+
+.input-wrap {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  margin: 0 -12px;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 12px;
+}
+
+.account-info-input {
+  font-size: 18px;
+  line-height: 100%;
+  width: 100%;
+}
+
+.mysubmit {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.wx {
+}
+
+.label {
+  color: gray;
+  width: 4.5em;
+}
+
+.flex-wap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(243, 196, 158, 0.062);
+  width: 100%;
+  height: 300rpx;
+}
+
+.userinfo-btn {
+  margin-top: 50rpx;
+  background: none !important;
+  color: #fff !important;
+  font-size: 40rpx;
+}
+
+.account-bg {
+  width: 100%;
+  height: 150rpx;
+}
+
+.userinfo-avatar {
+  width: 108rpx;
+  height: 108rpx;
+  margin: 60rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #fff;
+}
+
+.myxinxi {
+  background-color: rgba(243, 196, 158, 0.062);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rpx;
+  box-shadow: 3rpx;
+}
+
+.xinxi-img {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  border: 1px solid rgba(243, 196, 158, 0.062);
+  border-radius: 50rpx;
+}
+
+.xinxi-imgxinxi {
+  width: 100%;
+  align-self: center;
+}
+
+.dingdan {
+  background-color:rgba(243, 196, 158, 0.062);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+}
+
+.text-my {
+  font-size: 34rpx;
+  color: gray;
+  margin: 20rpx;
+  width: 40%;
+}
+
+.text-right {
+  font-size: 32rpx;
+  color: gray;
+  position: relative;
+  right: 20rpx;
+  width: 60%;
+  text-align: right;
+}
+
+.mintext {
+  font-size: 15rpx;
+  height: 0rpx;
+  display: inline-block;
+}
+
+.xinxi-text {
+  font-size: 35rpx;
+}
+
+.other {
+  margin-left: 5rpx;
+  margin-top: 5rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.other-otext{
+  font-size: 30rpx;
+}
+
+.other-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.other-img {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 50rpx;
+}
+
+.other-text {
+}
+

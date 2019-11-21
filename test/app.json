@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/ceshi/index",
+    "pages/index/xiaoxiceshi/index",
+    "pages/menu2/index",
+    "pages/menu3/index",
+    "pages/menu4/index",
+    "pages/menu5/index",
+    "pages/index/test",
+    "pages/detail/detail",
+    "pages/menu5/zhanghao/reg",
+    "pages/menu5/zhanghao/reg/logined"
+      ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "微信商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/a-off.png",
+        "selectedIconPath": "pages/images/a-on.png"
+      }
+      ,
+      {
+        "pagePath": "pages/menu3/index",
+        "text": "所有商品",
+        "iconPath": "pages/images/c-off.png",
+        "selectedIconPath": "pages/images/c-on.png"
+      },
+      {
+        "pagePath": "pages/menu4/index",
+        "text": "购物车",
+        "iconPath": "pages/images/d-off.png",
+        "selectedIconPath": "pages/images/d-on.png"
+      },
+      {
+        "pagePath": "pages/menu5/index",
+        "text": "我的",
+        "iconPath": "pages/images/e-off.png",
+        "selectedIconPath": "pages/images/e-on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

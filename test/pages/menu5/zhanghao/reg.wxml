@@ -1,0 +1,25 @@
+<!--pages/menu5/zhanghao/reg.wxml-->
+<form bindsubmit="formsubmit" bindreset="formReset">
+  <view class="denglu">
+    <text class="shuoming">请输入你的会员账号</text>
+
+    <view class="form-wap">
+      <view class="flex-wap input-wrap">
+        <text class="label">手机号码</text>
+        <input  id="username" name="uname" class="account-info-input"></input>
+      </view>
+      <view class="flex-wap input-wrap">
+        <text class="label">设置密码</text>
+        <input  password id="password" name="upwd1" class="account-info-input"></input>
+      </view>
+        <view class="flex-wap input-wrap">
+        <text class="label">确认密码</text>
+        <input password id="password2" name="upwd2" class="account-info-input"></input>
+      </view>
+    </view>
+    <text wx:if="{{error}}" class="myred">{{error}}</text>
+    <text class="shuoming">请确认账号信息</text>
+    <button class="mysubmit" type="primary" form-type="submit">注册账号</button>
+
+  </view>
+</form>

@@ -1,0 +1,71 @@
+<!--pages/menu5/index.wxml-->
+<!-->
+<form>
+  <view class="denglu">
+    <text class="shuoming">请输入你的会员账号</text>
+
+    <view class="form-wap">
+      <view class="flex-wap input-wrap">
+        <text class="label">账号</text>
+        <input value="" id="username" name="uname" class="account-info-input"></input>
+      </view>
+      <view class="flex-wap input-wrap">
+        <text class="label">密码</text>
+        <input value="" id="mima" name="upwd" class="account-info-input"></input>
+      </view>
+    </view>
+    <text class="shuoming">请准确填写账号信息</text>
+    <button class="mysubmit" type="primary">登录</button>
+    <button class="mysubmit" type="primary" bindtap="toReg">注册新用户</button>
+    <button open-type="getUserInfo" bindgetuserinfo="getWxinfo" class="wx">微信登录</button>
+
+  </view>
+</form>
+
+<view>登录状态:{{str_u_login}}</view>
+<view>用户id : {{str_u_id}} |用户名:{{str_u_name}}</view>
+-->
+<view class="userinfo">
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="userinfo-btn"> 点击微信授权 </button>
+  <block wx:else>
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="">你好，亲爱的：</text>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </block>
+</view>
+<view class="dingdan">
+    <text class="text-my">我的订单</text>
+    <text class="text-right">查看所有订单</text>
+</view>
+
+<view class="myxinxi">
+  <view class="xinxi-img" bindtap="xinxijump">
+    <text class="xinxi-text">待收货</text>
+  </view> 
+  <view class="xinxi-img">
+    <text class="xinxi-text">待付款</text>
+  </view> 
+  <view class="xinxi-img">
+    <text class="xinxi-text">待评价</text>
+  </view> 
+    <view class="xinxi-img">
+    <text class="xinxi-text">更多>></text>
+  </view> 
+  <view class="other">
+  <text class="other-otext"></text>
+
+  <view class="other-item">
+    <image class="other-img" src="/pages/images/enshrine.png" mode="widthFix"></image>
+    <text class="other-text">我的收藏</text>
+  </view>
+    <view class="other-item">
+    <image class="other-img" src="/pages/images/mine.png" mode="widthFix"></image>
+     <text class="other-text">我的客服</text>
+  </view>
+    <view class="other-item">
+    <image class="other-img" src="/pages/images/news.png" mode="widthFix"></image>
+     <text class="other-text">我的评价</text>
+  </view>
+
+  </view>
+</view>
